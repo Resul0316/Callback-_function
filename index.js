@@ -81,7 +81,6 @@ const showLoadingScreen = () => {
     }, 1000);
   };
 
-  
   const hideLoadingScreen = () => {
     console.log("4- Loading Screen Hiding");
   };
