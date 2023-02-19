@@ -36,6 +36,21 @@ const counter = document.querySelector("#counter")
 //Bu sekilde de cagirilir
 //increment()
 
+// Another example of Callback
+
+function print(value) {
+  console.log(value)
+};
+
+function useCallback (callback) {
+  callback('hello');
+};
+useCallback(print);
+
+
+
+
+
 //! 2- Efective Programming Approach
 //!------------------------------------------------------------
 //*Clean Code
@@ -50,7 +65,6 @@ const calculate = (callback) =>{
     //const num1 = Number(prompt("first number"));
     //const num2 = Number(prompt("second number"));
     //console.log("RESULT", callback(num1, num2));
-    
 }
 //calculate(sum)
 //calculate(sub)
